@@ -32,12 +32,13 @@ figcaption {
 }
 
 #details {
+  display: box;
   width: 100%;
 }
 
-#details > div {
-  display: grid;
+div {
   float: left;
   background-color: red;
-  margin-left: 200px;
+  width: 25%;
+  text-align: center;
 }
