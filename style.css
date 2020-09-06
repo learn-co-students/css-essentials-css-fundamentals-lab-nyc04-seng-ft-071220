@@ -1,5 +1,45 @@
+
+html {
+  background-image: url("https://webneel.com/daily/sites/default/files/images/daily/12-2014/1-how-to-draw-anime-laira87.jpg");
+}
 body {
-  width: 100%;
+  margin: auto;
+  text-align: center;
+  width: 90%;
   height: 100%;
-  margin: 0;
+  margin: 10;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+figcaption {
+  text-align: center;
+  margin: auto;
+  font-size: 10px;
+}
+
+nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: lightpink;
+}
+
+p#featured-property{
+  width: 800px;
+  text-align: center;
+}
+
+section#details {
+  display: block;
+}
+
+div {
+  float: left;
+  background: lightpink;
+  width: 25%;
 }
